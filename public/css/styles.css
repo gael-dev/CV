@@ -135,7 +135,7 @@ h3 {
 .people {
    display: flex;
    flex-direction: row;
-   
+   justify-content: center;
 }
 
 /* Mise en page responsive pour tablettes et mobiles */
