@@ -117,7 +117,7 @@ h3 {
 
 .exp {
    display: flex;
-  
+   place-content: space-evenly;
    border: solid 1px;
    padding: 16px;
    font-size: 22px;
