@@ -8,12 +8,24 @@
 }
 
 
+.row {
+   display: flex;
+   flex-direction: row;
+}
+
+.row1 {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
 
 .icones {
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
    margin-bottom: 20px;
+   color: #3E3E6B;
 }
 
 .ico {
@@ -23,6 +35,10 @@
    font-size: 45px;
    padding: 10px;
 
+}
+
+.align {
+   align-self: center;
 }
 
 .down .ico1 {
@@ -35,9 +51,16 @@
    color: rgb(62, 62, 107);
 }
 
+.icoreseau {
+   display: block;
+   border-radius: 50%;
+   font-size: 35px;
+   padding: 10px;
+   color: rgb(62, 62, 107);
+}
+
 .ico1 {
    display: block;
-   border: solid 2px #37474F;
    border-radius: 50%;
    font-size: 35px;
    padding: 10px;
@@ -46,13 +69,10 @@
 }
 
 .dot1 {
-   color: rgb(253, 221, 38);
-   font-size: 75px;
+   color: #3E3E6B;
+   font-size: 70px;
    margin-top: 17px;
    padding-right: 20px;
-   border: solid 3px ;
-   border-radius: 50%;
-   border-color: yellow;
    padding: 30px;
 }
 
@@ -92,6 +112,15 @@
 
 }
 
+.textstage {
+   display: flex;
+   flex-direction: column;
+   padding-top: 20px;
+   justify-content: space-between;
+
+}
+
+
 h5 {
    padding: 2px;
    margin: 0px;
@@ -116,12 +145,15 @@ aside {
 main {
    display: flex;
    flex-direction: column;
-   width: 67%;
+   width: 50%;
    padding-top: 30px;
    margin-top: 10px;
    margin-left: 60px;
+}
 
-
+ul {
+   white-space: pre-wrap;
+   list-style: square;
 }
 
 img {
@@ -143,17 +175,15 @@ img {
 }
 
 .down {
-   margin-top: 150px;
    margin-bottom: 30px;
 }
 
 h3 {
    color: rgb(253, 221, 38);
+   padding: 7px;
 }
 
-.contact {
-   padding-left: 40px;
-}
+
 
 span {
    text-decoration: underline;
@@ -163,7 +193,7 @@ span {
    text-align: center;
    padding-left: 40px;
    padding-right: 40px;
-   padding-bottom: 50px;
+
 }
 
 .Compétences {
@@ -171,7 +201,7 @@ span {
    text-align: justify;
    padding-left: 40px;
    padding-right: 40px;
-   padding-bottom: 50px;
+
 
 }
 
