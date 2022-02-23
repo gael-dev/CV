@@ -154,6 +154,12 @@ main {
 ul {
    white-space: pre-wrap;
    list-style: square;
+   width: max-content;
+   line-height: 40%;
+}
+
+li {
+   line-height: 100%;
 }
 
 img {
