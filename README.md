@@ -4,6 +4,6 @@
 
 Télécharger et cliquez sur le fichier HTML afin de prendre mes coordonnées pour que nous puissions nous rencontrer !
 
-(☞ﾟヮﾟ)☞ ☜(ﾟヮﾟ☜)
+Ps : ancien CV
 
 A très bientot 😃
